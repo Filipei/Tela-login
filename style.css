@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(./imagens\ usadas/5559852.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: sans-serif;
+}
+.img{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    margin-bottom: 15px;
+    width: 200px;
+}
+#senha{
+    width: 200px;
+}
+input{   
+    border: 0.1px solid white;
+    background: none;
+    border: none;
+    color: aliceblue;
+    outline: none;
+    box-shadow: none;
+}
+input:hover{
+    transition: 0.3s;
+}
+input::placeholder{
+    color: silver;
+}
+button{
+    margin-top: 20px;
+    width: 200px;
+    color: royalblue;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    transition: 0.5s;
+    background-color: royalblue;
+    scale: 1.1;
+    color: silver;
+    border: none;
+}
+#esqueceutext{
+    margin-top: 10px;
+    font-size: 13px;
+    color: white;
+    margin-left:72px;
+    cursor: pointer;
+}
+.Email{
+    display: flex;
+    height: 20px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.senha{
+    margin-top: 20px;
+}
+.login{
+    width: 200px;
+}
+.senha{
+    width: 200px;
+}
+.senhainimg{
+    margin-top: 3px;
+    margin-left: 3.5px;
+}
+#senhalogin{
+    margin-left: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url(./imagens\ usadas/5559852.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed ;
+    }
+}
